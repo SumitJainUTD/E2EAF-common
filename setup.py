@@ -6,7 +6,7 @@ with open("requirements.txt", "r") as fh:
     requirements = [line.strip() for line in fh]
 
 setuptools.setup(
-    name="apps-common",
+    name="E2EAF-common",
     version="0.0.1",
     author="Sumit",
     author_email="sumit@email",
